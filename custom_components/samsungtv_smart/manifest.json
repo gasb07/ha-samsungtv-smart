@@ -1,9 +1,9 @@
 {
   "domain": "samsungtv_smart",
-  "name": "SamsungTV Smart",
+  "name": "SamsungTV Smart Test",
   "codeowners": ["@jaruba", "@ollo69", "@screwdgeh"],
   "config_flow": true,
-  "dependencies": ["http"],
+  "dependencies": ["http", "application_credentials"],
   "documentation": "https://github.com/ollo69/ha-samsungtv-smart",
   "integration_type": "device",
   "iot_class": "cloud_polling",
